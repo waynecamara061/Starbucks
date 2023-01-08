@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Starbucks</title>
+</head>
+<body>
+    
+    <section>
+    <header>
+        <a href="#"><img src="imgs/logo.png" class="logo"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Novo</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><span class="themesswitch"></span></li>
+        </ul>
+    
+    </header>
+
+<div class="content">
+    <div class="textbox">
+        <h2>Explore nossos Cafés <br>Isso é <span>Starbucks</span></h2>
+        <p>Independente do seu gosto ou paladar, encontrará um café Starbucks® perfeito para vocêDesde que abrimos nossa primeira loja em 1971, buscamos a confiança e o respeito de nossos clientes, partners (como chamamos os nossos colaboradores) e vizinhos. Como? Tendo responsabilidade e fazendo coisas boas para o planeta e para as pessoas.</p>
+        <a href="#">Saiba Mais</a>
+    </div>
+    <div class="imgbox">
+        <img src="imgs/copo.png">
+    </div>
+</div>
+
+<ul class="sci">
+    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+</ul>
+
+</section>
+
+<script>
+    let = themesswitch = document.querySelector('.themesswitch');
+    let body = document .querySelector('body');
+    themesswitch.onclick = function(){
+        themesswitch.classList.toggle('active');
+        body.classList.toggle('dark');
+    }
+</script>
+
+</body>
+</html>
